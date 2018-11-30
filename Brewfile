@@ -36,3 +36,6 @@ cask "homebrew/cask-fonts/font-hack-nerd-font"
 cask "homebrew/cask-fonts/font-source-code-pro"
 cask "atom"
 cask "visual-studio-code"
+mas "Slack", id: 803453959
+mas "The Unarchiver", id: 425424353
+mas "Todoist", id: 585829637
