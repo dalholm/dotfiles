@@ -1,8 +1,6 @@
-tap "homebrew/apache"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "homebrew/php"
 tap "homebrew/services"
 brew "brew-php-switcher"
 brew "cask"
@@ -10,7 +8,6 @@ brew "composer"
 brew "curl", args: ["with-libssh2", "with-openssl"]
 brew "git"
 brew "httpd", args: ["with-privileged-ports"]
-brew "maven"
 brew "node"
 brew "php@5.6", args: ["with-homebrew-curl", "with-httpd24", "without-ldap"]
 brew "php@7.0", args: ["with-homebrew-curl", "with-httpd24"]
@@ -31,3 +28,8 @@ cask "transmit"
 cask "google-chrome"
 cask "iterm2"
 cask "postman"
+cask "jetbrains-toolbox"
+cask "homebrew/cask-fonts/font-awesome-terminal-fonts"
+cask "homebrew/cask-fonts/font-fontawesome"
+cask "homebrew/cask-fonts/font-hack-nerd-font"
+cask "homebrew/cask-fonts/font-source-code-pro"
